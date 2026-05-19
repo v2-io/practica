@@ -40,7 +40,6 @@ Bash in-place stream editors (`sed -i`, `perl -pi`) sometimes silently no-op on 
 
 ### 1. Bootstrapping Documents
 
-- [ ] Run (or have Agentic Systems) run the two known spikes related to nailing down some composition theorems
 - [ ] Compose 02-normative
 - [ ] Compose 03-concrete
 
