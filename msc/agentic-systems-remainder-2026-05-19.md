@@ -1,5 +1,7 @@
 # Agentic-systems remainder — hand-off list (verified at HEAD `9a3db8e`, 2026-05-19)
 
+> **STATUS: FULLY DISCHARGED (agentic-systems HEAD `2e50bc2`, 2026-05-19).** Every item below was completed by the agentic-systems team (A1 + B6 landed into segments; A2/A3/A5 fixed; INDEX/ROUTING reconciled; C10 confirmed as a correctly-flagged source-side open, not a defect). Retained as a historical record of a verified hand-off — **not an open action list**. Provenance + the discharge are recorded in [[01-rewrite-plan]] rev 11.
+
 *Written peer-to-peer for the agentic-systems agents: this is an inventory with verified status and caveats, not a work order — the segment-craft is yours. Every item is tagged with how I know it: **[V]** verified first-hand at HEAD `9a3db8e`; **[C]** contract/CHANGELOG self-report (read, not independently re-derived); **[U]** not verified — flagged for you to check. Provenance: surfaced during the practica `01-theory` source dive; A-1 / the 01-theory rewrite are practica-side and deliberately excluded here.*
 
 **Correction to anything I said earlier:** an earlier statement that "the ε\*(N) re-typing is spike-only / canon is stale-pessimistic" is **false at HEAD** and withdrawn — both `#form-composition-closure` ε\*(N) rows are landed (below). Treat this file as superseding that.
