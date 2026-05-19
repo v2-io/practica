@@ -9,7 +9,7 @@ Practica is downstream of `agentic-systems`; the parent's working disposition ho
 
 **Practica** is the LOCUS-level "hierarchical and meaningful graph of ongoing efforts" — the realized form of what the mother program, [Agentic Systems](~/src/agentic-systems/)' `Practica.md` gestures at, grounded in AAT theory rather than ad-hoc. It is a **composite agent system** (serial AI sub-agents under total context turnover + at least one human), not a single agent's tracker. It is a public repo but hasn't been launched or disseminated yet.
 
-**Read `docs/01-theory.md` first.** It is the [AAT](~/src/agentic-systems/01-aat-core/OUTLINE.md)-grounded reason Practica is shaped the way it is, self-contained (notation + plain-English results reference + epistemic tiers), and it is the durable channel between serial sub-agents. Do not upgrade an epistemic tier in it without reading the cited [Agentic Systems](~/src/agentic-systems/) segment. Also, by being self-contained here (for now), there is the possibility of drift. Agentic Systems repository will always have the latest forms and corrections and epistemic status.
+**Read [[docs/01-theory]] first.** It is the [AAT](~/src/agentic-systems/01-aat-core/OUTLINE.md)-grounded reason Practica is shaped the way it is, self-contained (notation + plain-English results reference + epistemic tiers), and it is the durable channel between serial sub-agents. Do not upgrade an epistemic tier in it without reading the cited [Agentic Systems](~/src/agentic-systems/) segment. Also, by being self-contained here (for now), there is the possibility of drift. Agentic Systems repository will always have the latest forms and corrections and epistemic status.
 
 ## Current bootstrapping document structure
 
