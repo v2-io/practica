@@ -16,8 +16,18 @@ Practica is downstream of `agentic-systems`; the parent's working disposition ho
 Numbered, separable, edited independently:
 
 1. [[docs/01-theory]] — theory grounding (what is *forced* vs *chosen* vs *free*; the three-tier spec; honest edges).
-2. [[docs/02-normative]] — *planned.* Theory → Normative-Claims mapping: what Practica is *for* (grounded by the Three Deaths). Recommended authored first — smallest, disciplines 03.
-3. [[docs/03-concrete]]  — *planned.* Structural invariants & architectural decisions + process invariants & process decisions. Carries a first-class **assumptions ledger**: the theory's *stated* assumptions plus the *implicit* ones the real build enforces and surfaces (the channel where build-friction logs back as candidate theory assumptions).
+2. [[docs/02-normative]] — *composed 2026-05-20.* Theory → Normative-Claims mapping. Index file plus six thematic cluster files in `docs/02-normative/` — *architectural commitments*, *coordination affordances*, *content discipline*, *diagnostic surfaces*, *failure-mode defaults*, *limits and positioning*. 36 normative claims total; each with tier marker, citation footnote (local file + supporting quote), and cross-references. The conditional voice and the present-truth discipline hold throughout. The two long-form comparative papers in `msc/` (see below) establish the strongest convergence arguments the 02-normative cluster files cite without re-arguing.
+3. [[docs/03-concrete]]  — *planned.* Structural invariants & architectural decisions + process invariants & process decisions. Carries a first-class **assumptions ledger**: the theory's *stated* assumptions plus the *implicit* ones the real build enforces and surfaces (the channel where build-friction logs back as candidate theory assumptions). Five named productive tensions are inherited from operata (see L6 in [[docs/02-normative/06-limits-and-positioning]]) as starter entries for the assumptions ledger.
+
+### Comparative-descriptive papers (supporting 02)
+
+Two papers in `msc/` carry the long-form convergence arguments that 02's cluster files cite:
+
+- [[msc/practica-structural-identity]] — *Practica's Structural Identity: A Convergence Between Formal Theory and Engineering Practice.* Three traditions converge on the *plumbing/intelligence split* as Practica's structural job: AAT's wrapping construction (formal), the LLM-agent engineering family (TodoWrite, LLMCompiler, operata's explicit naming), and the analytical-vs-engineering disjoint-failure-modes argument. Traces three conditional supersession entailments — bootstrap-recovery safety, soft-claiming over locking, day-one DAG-with-cycle-detection — under the structural identification.
+
+- [[msc/practica-intent-action-layers]] — *Intent and Action as Different Content Layers: A Convergence Across Military Doctrine, Formal Theory, and Engineering Practice.* Three traditions converge on the alignment-autonomy *2×2* (not trade-off axis): military doctrine (Moltke 1869 → Bungay 2011), AAT formalism (three sister derivations on a shared Section II substrate — `der-action-selection`, `der-orient-cascade`, `hyp-auftragstaktik-principle`), and operata's Intent/Realization data-model separation. Traces four normative implications — type-separated Intent/Realization, two-levels-up intent visibility, backbrief as recurring operation, minimum-sufficient-set discipline as UX default.
+
+A handoff summary of this session's work lives at [[msc/session-2026-05-20-handoff]].
 
 ## Markdown conventions
 *(Subset of Agentic Systems' FORMAT.md — important for human readability)*
@@ -40,8 +50,8 @@ Bash in-place stream editors (`sed -i`, `perl -pi`) sometimes silently no-op on 
 
 ### 1. Bootstrapping Documents
 
-- [ ] Compose 02-normative
-- [ ] Compose 03-concrete
+- [x] Compose 02-normative — *done 2026-05-20*; directory at [[docs/02-normative]] with index + six cluster files. Two supporting comparative papers in `msc/` (see "Comparative-descriptive papers" above).
+- [ ] Compose 03-concrete — *planned*. Starting points: the four normative implications from paper 2 (N1–N4), the six architectural commitments from cluster 01 (A1–A6), and the five productive tensions (L6) as assumptions-ledger entries. The [[msc/03-perspectives]] four-perspective discipline should propagate into 03's organization.
 
 ### 2. Language, Project Setup, & anti-sprawl
 
